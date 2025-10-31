@@ -2,7 +2,7 @@ const express = require('express');
 const { hubcloudExtracter } = require('./extractor');
 
 const app = express();
-const port = 3000;
+const port = 10000;
 
 // Middleware to parse URL-encoded bodies (for form data) and JSON bodies
 app.use(express.urlencoded({ extended: true }));
